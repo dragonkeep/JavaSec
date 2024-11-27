@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/CC1/pom.xml" />
+        <option value="$PROJECT_DIR$/CC2/CC2/pom.xml" />
+        <option value="$PROJECT_DIR$/../CC6/CC6/pom.xml" />
+        <option value="$PROJECT_DIR$/CC3/pom.xml" />
+        <option value="$PROJECT_DIR$/CC4/pom.xml" />
+        <option value="$PROJECT_DIR$/CC2/pom.xml" />
+        <option value="$PROJECT_DIR$/CCUtils/pom.xml" />
+        <option value="$PROJECT_DIR$/CC5/pom.xml" />
+        <option value="$PROJECT_DIR$/CC7/pom.xml" />
+        <option value="$PROJECT_DIR$/CC6/pom.xml" />
+        <option value="$PROJECT_DIR$/CB1/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/CCUtils/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="openjdk@1.7.0-80" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
