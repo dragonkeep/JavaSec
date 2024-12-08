@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CC.iml" filepath="$PROJECT_DIR$/CC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate1.iml" filepath="$PROJECT_DIR$/Hibernate1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSec.iml" filepath="$PROJECT_DIR$/JavaSec.iml" />
     </modules>
   </component>
 </project>
