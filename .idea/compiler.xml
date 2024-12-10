@@ -19,6 +19,8 @@
         <module name="CC7" />
         <module name="CC6" />
         <module name="Hibernate1" />
+        <module name="Spring2" />
+        <module name="Spring1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
