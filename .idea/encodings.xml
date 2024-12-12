@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/BeanShell/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BeanShell/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C3P0/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/C3P0/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CB1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CB1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CC1/src/main/java" charset="UTF-8" />
@@ -29,11 +33,21 @@
     <file url="file://$PROJECT_DIR$/Hibernate1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Hibernate2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Hibernate2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MozillaRhino1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MozillaRhino1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ROME/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ROME/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Shiro550/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Shiro550/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Wicket1/Wicket2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Wicket1/Wicket2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Wicket1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Wicket1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Wicket2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Wicket2/src/main/resources" charset="UTF-8" />
   </component>
 </project>

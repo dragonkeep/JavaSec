@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -21,11 +22,18 @@
         <option value="$PROJECT_DIR$/Hibernate2/pom.xml" />
         <option value="$PROJECT_DIR$/Spring1/pom.xml" />
         <option value="$PROJECT_DIR$/Spring2/pom.xml" />
+        <option value="$PROJECT_DIR$/Wicket1/pom.xml" />
+        <option value="$PROJECT_DIR$/Wicket2/pom.xml" />
+        <option value="$PROJECT_DIR$/MozillaRhino1/pom.xml" />
+        <option value="$PROJECT_DIR$/ROME/pom.xml" />
+        <option value="$PROJECT_DIR$/BeanShell/pom.xml" />
+        <option value="$PROJECT_DIR$/C3P0/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/CCUtils/pom.xml" />
+        <option value="$PROJECT_DIR$/MozillaRhino1/pom.xml" />
       </set>
     </option>
   </component>
