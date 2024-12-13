@@ -1,4 +1,6 @@
-Record the Study for JavaSec.
+建个仓库简单记录一下学习Java安全
+* URLDNS
+* CB1
 * CC1
 * CC2
 * CC3
@@ -10,9 +12,27 @@ Record the Study for JavaSec.
 * Groovy1
 * Hibernate1
 * Hibernate2
-* Shiro550
-* Shiro752
 * Thymeleaf
 * Spring1
 * Spring2
+* C3P0
+* ROME
+* Wicket1
+* Wicket2
+* Click1
+* Vaadin1
+* BeanShell
+
+待学习:
+* Shiro550
+* Shiro752
+* Clojure
+* Myfaces1
+* Myfaces2
+* MozillaRhino1
+* MozillaRhino2
+* Hessian
+* Jackson
+* JDBC Attack
+* 
   ...
