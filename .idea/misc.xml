@@ -28,12 +28,17 @@
         <option value="$PROJECT_DIR$/ROME/pom.xml" />
         <option value="$PROJECT_DIR$/BeanShell/pom.xml" />
         <option value="$PROJECT_DIR$/C3P0/pom.xml" />
+        <option value="$PROJECT_DIR$/Clojure/pom.xml" />
+        <option value="$PROJECT_DIR$/Click1/pom.xml" />
+        <option value="$PROJECT_DIR$/Vaadin1/pom.xml" />
+        <option value="$PROJECT_DIR$/Myfaces1/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/CCUtils/pom.xml" />
         <option value="$PROJECT_DIR$/MozillaRhino1/pom.xml" />
+        <option value="$PROJECT_DIR$/Myfaces1/pom.xml" />
       </set>
     </option>
   </component>

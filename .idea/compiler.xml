@@ -24,13 +24,17 @@
         <module name="Wicket1" />
         <module name="Hibernate1" />
         <module name="Wicket2" />
+        <module name="Vaadin1" />
         <module name="Spring2" />
+        <module name="Click1" />
         <module name="Spring1" />
+        <module name="Clojure" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="CCUtils" target="1.7" />
       <module name="MozillaRhino1" target="1.7" />
+      <module name="Myfaces1" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

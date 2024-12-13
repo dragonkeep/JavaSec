@@ -30,7 +30,8 @@ public class Util {
         ObjectInputStream objectInputStream =new ObjectInputStream(byteArrayInputStream);
         Object o=objectInputStream.readObject();
     }
-    public static void serializeToHex(Object obj) throws IOException {
+
+    public static void serializeToHex(Object obj, String filePath) throws IOException {
         // 序列化对象到字节数组
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         try (ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream)) {
@@ -42,16 +43,16 @@ public class Util {
         String hexString = bytesToHex(serializedBytes);
 
         // 将十六进制字符串写入文件
-        try (FileWriter fileWriter = new FileWriter("ser.bin")) {
+        try (FileWriter fileWriter = new FileWriter(filePath)) {
             fileWriter.write(hexString);
         }
     }
 
     // 方法2：从文件读取十六进制编码，解码后反序列化为对象
-    public static Object deserializeFromHex() throws IOException, ClassNotFoundException {
+    public static Object deserializeFromHex(String filePath) throws IOException, ClassNotFoundException {
         // 从文件读取十六进制字符串
         StringBuilder hexStringBuilder = new StringBuilder();
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("ser.bin"))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 hexStringBuilder.append(line);
@@ -93,4 +94,5 @@ public class Util {
         }
         return bytes;
     }
+
 }
