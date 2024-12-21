@@ -1,4 +1,4 @@
-建个仓库简单记录一下学习Java安全
+建个仓库简单记录一下学习Java安全:
 * URLDNS
 * CB1
 * CC1
@@ -34,5 +34,13 @@
 * Hessian
 * Jackson
 * JDBC Attack
-* 
+* SnakeYaml
+
+主要参考博客:
+https://github.com/Y4tacker/JavaSec
+https://su18.org/post/ysuserial/
+https://goodapple.top/
+https://tttang.com/sort/java/
+https://clowsman.github.io/
+https://github.com/Drun1baby/JavaSecurityLearning
   ...
