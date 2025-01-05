@@ -7,34 +7,51 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FileUpload1" />
+        <module name="SpEL" />
         <module name="Hibernate2" />
-        <module name="Shiro550" />
-        <module name="BeanShell" />
-        <module name="C3P0" />
+        <module name="Jackson" />
         <module name="CC1" />
-        <module name="Groovy1" />
         <module name="CC3" />
         <module name="CC2" />
-        <module name="CB1" />
-        <module name="ROME" />
         <module name="CC5" />
         <module name="CC4" />
         <module name="CC7" />
         <module name="CC6" />
         <module name="Wicket1" />
-        <module name="Hibernate1" />
         <module name="Wicket2" />
+        <module name="SnakeYaml" />
         <module name="Vaadin1" />
         <module name="Spring2" />
-        <module name="Click1" />
         <module name="Spring1" />
         <module name="Clojure" />
+        <module name="fastjson-1.2.45" />
+        <module name="fastjson-1.2.43" />
+        <module name="fastjson-1.2.42" />
+        <module name="fastjson-1.2.25" />
+        <module name="fastjson-1.2.47" />
+        <module name="fastjson-1.2.24" />
+        <module name="JNDI" />
+        <module name="Shiro550" />
+        <module name="BeanShell" />
+        <module name="C3P0" />
+        <module name="Groovy1" />
+        <module name="CB1" />
+        <module name="ROME" />
+        <module name="Hibernate1" />
+        <module name="AspectJWeaver" />
+        <module name="Click1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="45" target="1.7" />
       <module name="CCUtils" target="1.7" />
       <module name="MozillaRhino1" target="1.7" />
       <module name="Myfaces1" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpEL" options="" />
+    </option>
   </component>
 </project>

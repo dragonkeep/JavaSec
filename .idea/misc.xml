@@ -32,6 +32,19 @@
         <option value="$PROJECT_DIR$/Click1/pom.xml" />
         <option value="$PROJECT_DIR$/Vaadin1/pom.xml" />
         <option value="$PROJECT_DIR$/Myfaces1/pom.xml" />
+        <option value="$PROJECT_DIR$/JNDI/pom.xml" />
+        <option value="$PROJECT_DIR$/fastjson-1.2.24/pom.xml" />
+        <option value="$PROJECT_DIR$/fastjson-1.2.25/pom.xml" />
+        <option value="$PROJECT_DIR$/fastjson-1.2.42/pom.xml" />
+        <option value="$PROJECT_DIR$/fastjson-1.2.43/pom.xml" />
+        <option value="$PROJECT_DIR$/fastjson-1.2.44/pom.xml" />
+        <option value="$PROJECT_DIR$/fastjson-1.2.45/pom.xml" />
+        <option value="$PROJECT_DIR$/fastjson-1.2.47/pom.xml" />
+        <option value="$PROJECT_DIR$/SnakeYaml/pom.xml" />
+        <option value="$PROJECT_DIR$/SpEL/pom.xml" />
+        <option value="$PROJECT_DIR$/Jackson/pom.xml" />
+        <option value="$PROJECT_DIR$/AspectJWeaver/pom.xml" />
+        <option value="$PROJECT_DIR$/Hessian/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -39,6 +52,7 @@
         <option value="$PROJECT_DIR$/CCUtils/pom.xml" />
         <option value="$PROJECT_DIR$/MozillaRhino1/pom.xml" />
         <option value="$PROJECT_DIR$/Myfaces1/pom.xml" />
+        <option value="$PROJECT_DIR$/fastjson-1.2.44/pom.xml" />
       </set>
     </option>
   </component>

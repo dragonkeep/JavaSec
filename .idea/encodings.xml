@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AspectJWeaver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AspectJWeaver/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BeanShell/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BeanShell/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/C3P0/src/main/java" charset="UTF-8" />
@@ -37,6 +39,10 @@
     <file url="file://$PROJECT_DIR$/Hibernate1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Hibernate2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Hibernate2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JNDI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JNDI/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jackson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Jackson/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MozillaRhino1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MozillaRhino1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Myfaces1/src/main/java" charset="UTF-8" />
@@ -45,6 +51,10 @@
     <file url="file://$PROJECT_DIR$/ROME/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Shiro550/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Shiro550/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SnakeYaml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SnakeYaml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpEL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpEL/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring2/src/main/java" charset="UTF-8" />
@@ -57,5 +67,19 @@
     <file url="file://$PROJECT_DIR$/Wicket1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Wicket2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Wicket2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.24/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.24/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.25/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.25/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.42/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.42/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.43/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.43/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.44/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.44/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.45/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.45/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.47/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fastjson-1.2.47/src/main/resources" charset="UTF-8" />
   </component>
 </project>
