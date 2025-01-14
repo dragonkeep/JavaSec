@@ -18,9 +18,12 @@
         <module name="CC7" />
         <module name="CC6" />
         <module name="Wicket1" />
+        <module name="LdapAttribute" />
         <module name="Wicket2" />
         <module name="SnakeYaml" />
         <module name="Vaadin1" />
+        <module name="Hessian" />
+        <module name="Fastjson_Template" />
         <module name="Spring2" />
         <module name="Spring1" />
         <module name="Clojure" />
@@ -29,6 +32,7 @@
         <module name="fastjson-1.2.42" />
         <module name="fastjson-1.2.25" />
         <module name="fastjson-1.2.47" />
+        <module name="XStream" />
         <module name="fastjson-1.2.24" />
         <module name="JNDI" />
         <module name="Shiro550" />
@@ -38,13 +42,16 @@
         <module name="CB1" />
         <module name="ROME" />
         <module name="Hibernate1" />
+        <module name="Fastjson_ReferenceSerialized" />
         <module name="AspectJWeaver" />
+        <module name="Fastjson_LdapAttribute" />
         <module name="Click1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="45" target="1.7" />
       <module name="CCUtils" target="1.7" />
+      <module name="LdapAttribute" target="1.7" />
       <module name="MozillaRhino1" target="1.7" />
       <module name="Myfaces1" target="1.7" />
     </bytecodeTargetLevel>

@@ -1,7 +1,7 @@
 package util;
 
-import com.sun.org.apache.bcel.internal.classfile.ClassParser;
-import org.apache.bcel.classfile.Utility;
+import com.caucho.hessian.io.Hessian2Input;
+import com.caucho.hessian.io.Hessian2Output;
 import sun.misc.BASE64Decoder;
 
 import javax.xml.bind.DatatypeConverter;
@@ -10,20 +10,25 @@ import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.util.HashMap;
-import com.sun.org.apache.bcel.internal.classfile.JavaClass;
+
+/**
+ * @Description
+ * @Author dragonkeep
+ * @Date 2025/1/10
+ */
 public class Util {
-    public static void  serialize(Object o)throws Exception{
-        ByteArrayOutputStream byteArrayOutputStream=new ByteArrayOutputStream();
-        ObjectOutputStream outputStream=new ObjectOutputStream(byteArrayOutputStream);
-        outputStream.writeObject(o);
-        outputStream.close();
+    public static void  serializeHessian(Object o)throws Exception {
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        Hessian2Output hessian2Output = new Hessian2Output(byteArrayOutputStream);
+        hessian2Output.writeObject(o);
+        hessian2Output.close();
         byte [] bytes=byteArrayOutputStream.toByteArray();
         String base64encode= DatatypeConverter.printBase64Binary(bytes);
         BufferedWriter bufferedWriter=new BufferedWriter(new FileWriter("Ser2.bin"));
         bufferedWriter.write(base64encode);
         bufferedWriter.close();
     }
-    public static void unserialize()throws Exception{
+    public static void unserializeHessian()throws Exception{
         BASE64Decoder decoder=new BASE64Decoder();
         StringBuilder stringBuilder=new StringBuilder();
         BufferedReader bufferedReader=new BufferedReader(new FileReader("Ser2.bin"));
@@ -32,9 +37,9 @@ public class Util {
             stringBuilder.append(line);
         }
         byte[] decode= decoder.decodeBuffer(stringBuilder.toString());
-        ByteArrayInputStream  byteArrayInputStream=new ByteArrayInputStream(decode);
-        ObjectInputStream objectInputStream =new ObjectInputStream(byteArrayInputStream);
-        Object o=objectInputStream.readObject();
+        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(decode);
+        Hessian2Input hessian2Input=new Hessian2Input(byteArrayInputStream);
+        Object o = hessian2Input.readObject();
     }
     public static HashMap<Object, Object> makeMap (Object v1, Object v2 ) throws Exception {
         HashMap<Object, Object> s = new HashMap<>();
@@ -65,22 +70,5 @@ public class Util {
         Field field = obj.getClass().getDeclaredField(name);
         field.setAccessible(true);
         return field.get(obj);
-    }
-    public static String Object2Becl(String classpath) throws Exception{
-        FileInputStream fis = new FileInputStream(classpath);
-        ByteArrayOutputStream bos = new ByteArrayOutputStream();
-        byte[] buffer = new byte[1024];
-        int bytesRead;
-        while ((bytesRead = fis.read(buffer)) != -1) {
-            bos.write(buffer, 0, bytesRead);
-        }
-        fis.close();
-
-        // 获取字节数组
-        byte[] classBytes = bos.toByteArray();
-
-        // 使用 BCEL 工具将字节数组编码为 BCEL 字符串
-        String bcelString = Utility.encode(classBytes, true);
-        return "$$BCEL$$" + bcelString;
     }
 }

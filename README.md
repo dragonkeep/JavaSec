@@ -22,6 +22,7 @@
 * Click1
 * Vaadin1
 * BeanShell
+* AspectJWeaver
 
 待学习:
 * Shiro550
@@ -35,6 +36,12 @@
 * Jackson
 * JDBC Attack
 * SnakeYaml
+* Jdk7u21
+* Jython1
+* XStream
+* fastjson
+* Solon
+* H2 database
 
 
 主要参考博客:

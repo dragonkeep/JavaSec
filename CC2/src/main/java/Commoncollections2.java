@@ -19,7 +19,6 @@ PriorityQueue.readObject()
     TransformingComparator.compare()
         ChainedTransformer.transform()
                 InvokerTransformer.transform()
-                    TemplatesImpl.newTransformer()
 */
 /*版本依赖:
    commons-collections4 : 4.0

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -45,6 +44,11 @@
         <option value="$PROJECT_DIR$/Jackson/pom.xml" />
         <option value="$PROJECT_DIR$/AspectJWeaver/pom.xml" />
         <option value="$PROJECT_DIR$/Hessian/pom.xml" />
+        <option value="$PROJECT_DIR$/XStream/pom.xml" />
+        <option value="$PROJECT_DIR$/Fastjson_Template/pom.xml" />
+        <option value="$PROJECT_DIR$/Fastjson_ReferenceSerialized/pom.xml" />
+        <option value="$PROJECT_DIR$/LdapAttribute/pom.xml" />
+        <option value="$PROJECT_DIR$/Fastjson_LdapAttribute/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
